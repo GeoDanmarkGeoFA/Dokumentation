@@ -23,8 +23,8 @@ GET https://geofa-test.geodanmark.dk/api/v3/meta/fkg.t_5607_ladefacilitet
 Content-Type: application/json
 Accept: application/json; charset=utf-8
 Authorization: Bearer {{token}}
-
 ```
+
 Den sidste del af uri kan have flere relationer separeretet med komma. Alle udgivne relationer kan hentes således:
 
 ```http
@@ -33,6 +33,9 @@ Content-Type: application/json
 Authorization: Bearer {{token}}
 Accept: application/json; charset=utf-8
 ```
+
+**Bemærk**: De relationer, der anvendes til hentning og ændring af data er *database views*. I views kan constraints ikke ses, fx om et felt er primary key eller er nullable. 
+
 
 ## SQL
 Data kan hentes og ændres gennem SQL APIet. Systemet har en regelbaseret adgangskontrol, som omkriver den sendte SQL statement med `where` clauses eller blokkerer (eller giver lov) til de pågældende relationer.
@@ -55,7 +58,7 @@ Authorization: Bearer {{token}}
 }
 ```
 
-Tilsidst i repsonsen ses property `auth_check.statement`, som indeholder den statement, der faktisk er kørt. Fx som user kom851 ser den såleds ud:
+Tilsidst i repsonsen ses property `auth_check.statement`, som indeholder den statement, der faktisk blev kørt. Fx som user kom851 ser den såleds ud:
 
 ```sql
 select *
@@ -176,7 +179,7 @@ Her et **update** eksempel, der ændrer to objekter:
 
 ### Delete
 
-Delete kan også laves med og uden paremtre. Her er et eksempel på en **delete** statement, som sletter et enkelt objekt. Som ved update, vil en kørt delete statement, der ikke ændrer noget resultere i en LIMIT 0 error. Og ligeledes vil regelsystemet typisk sætte en `where` clause på statement:
+Delete kan også laves med og uden paremtre. Her er et eksempel på en **delete** statement, som sletter et enkelt objekt. Som ved update, vil en kørt delete statement, der ikke ændrer noget resultere i en LIMIT 0 error. Og ligeledes vil regelsystemet typisk sætte en `where` clause på en delete statement:
 
 ```http
 {
