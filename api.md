@@ -16,7 +16,7 @@ Accept: application/json; charset=utf-8
 ```
 
 ## Meta
-Meta APIet returnerer information om en eller flere relationer. Her kan fx ses felter og disses typer, herunder enums:
+Meta APIet returnerer information om en eller flere relationer. Her kan fx ses felter og disses typer, herunder enums. Dette kan være meget anvendeligt til udformning af SQL statements:
 
 ```http
 GET https://geofa-test.geodanmark.dk/api/v3/meta/fkg.t_5607_ladefacilitet
