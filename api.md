@@ -160,6 +160,10 @@ Hvis reglerne bevirker, at der ikke foretages ændringer i mindst et objekt (fx 
 Her et **update** eksempel, der ændrer to objekter:
 
 ```http
+POST https://geofa-test.geodanmark.dk/api/v4/oauth
+Content-Type: application/json
+Accept: application/json; charset=utf-8
+
 {
   "q": "update fkg.t_5607_ladefacilitet set off_kode=:off_kode,statuskode=:statuskode where objekt_id=:objekt_id",
   "params": [
@@ -182,6 +186,10 @@ Her et **update** eksempel, der ændrer to objekter:
 Delete kan også laves med og uden paremtre. Her er et eksempel på en **delete** statement, som sletter et enkelt objekt. Som ved update, vil en kørt delete statement, der ikke ændrer noget resultere i en LIMIT 0 error. Og ligeledes vil regelsystemet typisk sætte en `where` clause på en delete statement:
 
 ```http
+POST https://geofa-test.geodanmark.dk/api/v4/oauth
+Content-Type: application/json
+Accept: application/json; charset=utf-8
+
 {
   "q": "delete from fkg.t_5607_ladefacilitet where objekt_id=:objekt_id",
   "params": [
