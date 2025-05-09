@@ -1,7 +1,31 @@
 # SQL API
 
-## Auth
-Alle API requests skal have en access token i http headers. Denne fås således:
+## SQL API vejledninger til anvendelse af GeoFA-data
+## Adgang til GeoFA data via SQL API
+Generelt stilles GeoFA data til fri afbenyttelse (under reglerne for Creative Commons CCBY). Men for at kunne benytte SQL API skal du oprettes som bruger. 
+Hvis du er interesseret i at anvende SQL API så send en anmodning om brugeroprettelse til: support@geopartner.dk
+
+Du kan generelt finde mere vejledning om information om GeoFA på:  
+https://www.geodanmark.dk/home/vejledninger/geofa/ 
+
+## Auth (Access og Refresh tokens)
+Når du har din bruger hos GeoDanmark, så kan du med din bruger få et access token og et refresh token. Access token har 1 times brug og er derefter ugyldigt. Du kan få et nyt enten via brug af refresh token eller ved at anmode igen. 
+Når du skal anmode om dine tokens, så skal du bruge denne url: 
+https://geofa.geodanmark.dk/api/v4/oauth
+Det kan anbefales at bruge Postman til at tjekke, om det virker. Her er et eksempel på en anmodning: 
+
+![image](https://github.com/user-attachments/assets/1853bd4f-abe8-458f-adbb-61287e775c74)
+
+ 
+Username og password skal selvfølgelig erstattes med din egen bruger.
+Derudover er det vigtigt, at du sætter ”Content-Type” til ”application/json” og ”Accept” til ”application/json: charset=utf-8”.  I Postman ser det sådan her ud: 
+
+![image](https://github.com/user-attachments/assets/73930077-4e0f-4ad5-924d-642933bf4a09)
+
+ 
+Med det kan du få dine tokens og komme i gang med at hente data.
+
+Udenfor Postman vil et request for at få access token se sådan ud i http header:
 
 ```http
 POST https://geofa-test.geodanmark.dk/api/v4/oauth
@@ -14,6 +38,36 @@ Accept: application/json; charset=utf-8
   "password": "xxxxx",
   "database": "fkg"
 }
+
+## SQL query via API-endpoint
+Nu har du dit access token og kan derfor anmode om data fra databasen, API’et til databasen er: 
+https://geofa.geodanmark.dk/api/v4/sql
+For at teste, at det hele virker, kan man igen bruge Postman. Først skal man sætte sine headers op som på billedet: 
+
+![image](https://github.com/user-attachments/assets/2326cd03-a148-4d8c-b153-436483915a5b)
+
+ 
+Under ”Authorization” indsætter du dine egen Access token value efter ”Bearer”. Du skal herefter lave et SQL-statement, som passer til de data, du gerne vil hente. Her er et eksempel på hentning af Hundeskov/Hundepark/frit løbsareal som punkter:
+
+![image](https://github.com/user-attachments/assets/e83dd7a2-c25b-412d-8458-22234461790e)
+
+ 
+For at finde ud af hvad der skal så i din SQL query, så kig nærmere i GeoFA-specifikationen.
+
+## Specifikationen
+I specifikationen kan du finde alle tabeller og kolonner, så du nemt kan komme i gang. Du finder den her:
+https://www.geodanmark.dk/home/vejledninger/geofa/vejledninger-til-geofa/#1635417615327-8fa91839-15d5 
+Et eksempel på en tabel i specifikationen:
+
+![image](https://github.com/user-attachments/assets/749f468d-ec0e-40e0-b7eb-7059b86889d3)
+
+ 
+Her kan du se, hvordan datamodellen er bygget og dermed hvilke data, du kan kalde. F.eks. kan du finde alle registrerede vandreruter (rute_t_k = 5). Eller måske er du kun interesseret i en særlig type af vandreruter. Så kan du finde dette, og f.eks. kun vise Hærvejen (rute_uty_k = 12).
+
+ ![image](https://github.com/user-attachments/assets/3d5ee240-e864-41d5-aef5-d26adbaae49b)
+
+
+
 ```
 
 ## Meta
