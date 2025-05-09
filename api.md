@@ -38,6 +38,7 @@ Accept: application/json; charset=utf-8
   "password": "xxxxx",
   "database": "fkg"
 }
+```
 
 ## SQL query via API-endpoint
 Nu har du dit access token og kan derfor anmode om data fra databasen, API’et til databasen er: 
@@ -68,7 +69,7 @@ Her kan du se, hvordan datamodellen er bygget og dermed hvilke data, du kan kald
 
 
 
-```
+
 
 ## Meta
 Meta APIet returnerer information om en eller flere relationer. Her kan fx ses felter og disses typer, herunder enums. Dette kan være meget anvendeligt til udformning af SQL statements:
