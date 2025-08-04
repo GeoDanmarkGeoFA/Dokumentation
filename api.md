@@ -2,8 +2,7 @@
 
 ## SQL API vejledninger til anvendelse af GeoFA-data
 ## Adgang til GeoFA data via SQL API
-Generelt stilles GeoFA data til fri afbenyttelse (under reglerne for Creative Commons CCBY). Men for at kunne benytte SQL API skal du oprettes som bruger. 
-Hvis du er interesseret i at anvende SQL API så send en anmodning om brugeroprettelse til: support@geopartner.dk
+Generelt stilles GeoFA data til fri afbenyttelse (under reglerne for Creative Commons CCBY). 
 
 Du kan generelt finde mere vejledning om information om GeoFA på:  
 https://www.geodanmark.dk/home/vejledninger/geofa/ 
@@ -12,7 +11,10 @@ https://www.geodanmark.dk/home/vejledninger/geofa/
 Hvis du blot skal læse offentlig tilgængelige temaer, kan du få adgang uden brug af tokens. Det token-løse API endpoint hedder `https://geofa.geodanmark.dk/api/v4/sql/database/fkg` og anvendes på samme måde, som det med tokens (se nedenfor). Du kan blot lade være sætte `Authorization` headeren i dine requests.
 
 ## Auth (Access og Refresh tokens)
-Når du har din bruger hos GeoDanmark, så kan du med din bruger få et access token og et refresh token. Access token har 1 times brug og er derefter ugyldigt. Du kan få et nyt enten via brug af refresh token eller ved at anmode igen. 
+For at kunne benytte SQL API til editering af data skal du oprettes som bruger. 
+Send en anmodning om brugeroprettelse til: support@geopartner.dk
+
+Når du har din bruger, så kan du med din bruger få et access token og et refresh token. Access token har 1 times brug og er derefter ugyldigt. Du kan få et nyt enten via brug af refresh token eller ved at anmode igen. 
 Når du skal anmode om dine tokens, så skal du bruge denne url: 
 https://geofa.geodanmark.dk/api/v4/oauth
 Det kan anbefales at bruge Postman til at tjekke, om det virker. Her er et eksempel på en anmodning: 
