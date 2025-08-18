@@ -41,7 +41,8 @@ Accept: application/json; charset=utf-8
   "grant_type": "password",
   "username": "kom851",
   "password": "xxxxx",
-  "database": "fkg"
+  "database": "fkg",
+  "client_id": "geofa"
 }
 ```
 
