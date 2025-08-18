@@ -8,7 +8,7 @@ Du kan generelt finde mere vejledning om information om GeoFA på:
 https://www.geodanmark.dk/home/vejledninger/geofa/ 
 
 ## Åbent API uden brug af tokens
-Hvis du blot skal læse offentlig tilgængelige temaer, kan du få adgang uden brug af tokens. Det token-løse API endpoint hedder `https://geofa.geodanmark.dk/api/v4/sql/database/fkg` og anvendes på samme måde, som det med tokens (se nedenfor). Du kan blot lade være sætte `Authorization` headeren i dine requests.
+Hvis du blot skal læse offentlig tilgængelige temaer, kan du få adgang uden brug af tokens. Det token-løse API endpoint hedder `https://geofa.geodanmark.dk/api/v4/sql/database/fkg` og anvendes på samme måde som det med tokens (se nedenfor). Du kan blot lade være sætte `Authorization` headeren i dine requests.
 
 ## Auth (Access og Refresh tokens)
 For at kunne benytte SQL API til editering af data skal du oprettes som bruger. 
