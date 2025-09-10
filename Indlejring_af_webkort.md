@@ -20,5 +20,5 @@ For at indlejre webkortet kan du f√∏lge manualen for Vidi-platformen, som GeoFA‚
 ---
 
 ## 3. Ekstra ressourcer
-- Workshop med praktiske eksempler:  
-  [Workshop: Vidi embed](https://gc2vidi.github.io/workshops/Vidi-embed/)
+Workshop med praktiske eksempler:  
+[Workshop: Vidi embed](https://gc2vidi.github.io/workshops/Vidi-embed/)
