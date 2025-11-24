@@ -11,7 +11,7 @@ https://geofa-kort.geodanmark.dk/app/fkg/?config=/api/v2/configuration/fkg/confi
 
 Det er herinde du henter din token til din indlejring. 
 Du skal oprette dit eget projekt under fanen vist på billedet herunder, det gemmer hvilke lag du har slået til under oprettelse.
-Du kan altid opdatere ved at tilføje nye lag eller filtre og derefter trykke på opdater og gem.
+Du kan altid opdatere ved at tilføje nye lag eller filtre og derefter trykke på opdater og gem. Det er bedst hvis du er logget ind, så projektet er koblet til kontoen og ikke bare gemt lokalt.
 
 <img width="542" height="473" alt="image" src="https://github.com/user-attachments/assets/81d105af-095b-491e-ba73-600a7514b53f" />
 
