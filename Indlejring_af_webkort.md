@@ -26,7 +26,7 @@ Vigtigst fra ovenstående side: ```<script src="https://vidi.swarm.gc2.io/js/emb
 
 og 
 
-```<div data-vidi-token="eyJ0aXRsZSI......" data-vidi-width="800px" data-vidi-height="600px"></div>```
+```<div data-vidi-use-config="true" data-vidi-token="eyJ0aXRsZSI......" data-vidi-width="800px" data-vidi-height="600px"></div>```
 
 Husk at erstatte med dit eget token fra webkortet i *data-vidi-token* feltet.
 
