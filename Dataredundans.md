@@ -1,5 +1,7 @@
 # Dataredundans
 
+Skrives af KL
+
 Vi har brug for på en struktureret og oversigtlig måde at vise, hvor der er redundans 1) internt i GeoFA og 2) mellem GeoFA og andre registre (konkret GeoDanmark grunddata og Danske Stednavne)
 Ad 1)
 Vi har redundans ift. 1) punkt og flader i Friluftsdata samt 2) ens data i GeoFA, f.eks. bænke i flere temaer, 
