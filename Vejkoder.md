@@ -1,6 +1,12 @@
 # Vejkoder
 
-
+Der er i princippet to måder at angive adresser på
+1. Adresse_ID
+2. vejkode
+3. Evt også en CVF vejkode (?)
+Der er ingen fritekstmuligheder!
+Det anbefales at bruge 1.
+Der står noget tekst i den temaspecifikkedel og en nyere tekst i beskyttelsesrum
 
 Vi har i dag kun lidt tekst i specifikationen – samskriv en ny tekst ud fra denne.
 OBS  - jeg tror, det er forkert, at vi i specifikationen snakker om CPR-system (og for den sags skyld også om CVF). Jeg tror, databasen og specifikationen skal tilrettes, så vi kun anvender DAR. Start gerne med et sparringsmøde med Nina, Martin og jeg.
