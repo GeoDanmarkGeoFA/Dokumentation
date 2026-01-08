@@ -1,5 +1,25 @@
 # Billederelationer
 
+databasen består af
+- tabeller med faciliteter
+- tabel med fotos
+
+Ved upload får foto et objektID og navnet afspejler ID (og en stedfæstelse - ud fra fotos lokation)
+
+Der skal (herefter) dannes en relation mellem facilitet og foto
+
+Gennem GeoFA-editor og GeoFA-webkortet kan relation (tabel med objektID) skabes
+
+I fototabellen er der i databasen mulighed for attributter
+Disse kan i dag ikke udfyldes gennem GeoFA - men Udinaturen tilbyder denne mulighed
+
+Data om fotos kan udtrækkes gennem SQL-api
+
+OBS "Vilkår for anvendelse af fotos: Vær opmærksom på, at ved upload af billeder, så stilles de til fri afbenyttelse. Hvis der er angivet en copyright, skal denne akkrediteres. Du finder copyright, som en attribut til det pågældende foto."
+
+------
+
+
 Billeddelen er dokumenteret i 5.79 Billedunderstøttelse – men er dette fyldestgørende???
 Vi ved, at mange har svært ved at forstå det med billeddelen. Vi har fået følgende kommentar fra en GIS-leverandør: ”Billedhåndtering er også en vigtig del, især i forhold til tabellernes opbygning, database-struktur og relationer. Det ville desuden være en fordel med konkrete eksempler – ligesom dem, I har i jeres API-vejledning på GitHub.”
 
