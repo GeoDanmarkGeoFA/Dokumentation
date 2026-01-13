@@ -50,9 +50,9 @@ Når man ønsker at indlægge et billede i GeoFAs billededatabse udenom GeoFA Ed
 
 Et billede uploades til billedbiblioteket og navngives med med det returnerede objekt_id (returneret UUID='9d69bbf8-ef8a-11f0-be38-2b4180875278'):
 
-'''
+```
 curl -XPOST --header "Content-Type: multipart/form-data" "https://fkg.mapcentia.com/extensions/fkgmedia/api/image" -F files[]=@mit_billede.JPG -F names[]=9d69bbf8-ef8a-11f0-be38-2b4180875278.jpg
-'''
+```
 
 ### Tabellen t_7900_fotoforbindelse
 
