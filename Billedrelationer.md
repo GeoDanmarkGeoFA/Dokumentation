@@ -88,9 +88,13 @@ Billedbiblioteket er cloud-baseret og når et billede uploades, genereres automa
 Her ses 4 eksempler på (samme) billede-URL:
 
 https://geofa-foto.geodanmark.dk/1600/9d69bbf8-ef8a-11f0-be38-2b4180875278.jpg
+
 https://geofa-foto.geodanmark.dk/560/9d69bbf8-ef8a-11f0-be38-2b4180875278.jpg
+
 https://geofa-foto.geodanmark.dk/360/9d69bbf8-ef8a-11f0-be38-2b4180875278.jpg
+
 https://geofa-foto.geodanmark.dk/171/9d69bbf8-ef8a-11f0-be38-2b4180875278.jpg
+
 
 Den værdi (*9d69bbf8-ef8a-11f0-be38-2b4180875278*) som står i de ovenstående URLer, er den samme som objekt_id for billedet i tabellen *t_7901_foto*.
 
