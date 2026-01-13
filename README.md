@@ -18,18 +18,21 @@ Følgende sider er under review:
 
 [3 Brugerstyring - Offentlighedskode](/Brugerstyring_Offentlighedskode.md)
 
-## Under udarbejdelse
-
-Geopartner er ved at skrive/opdatere følgende vejledninger:
-
 [4 Vejkoder](/Vejkoder.md)
 
 [5 Billedrelationer](/Billedrelationer.md)
 
-[6 Dataredundans](/Dataredundans.md)
+## Under udarbejdelse
+
+Geopartner er ved at skrive/opdatere følgende vejledninger:
 
 [7 FAQ om fejlmeddelelser](/FAQ_om_fejlmeddelelser.md)
 
+## Aftalt at de skrives af KL
+
+[6 Dataredundans](/Dataredundans.md)
+
+---
 Ved spørgsmål om de dokumenter som er under udarbejdelse, kontakt venligst Lars Lindenborg Jensen hos Geopartner Landisspektører A/S på llj@geopartner.dk
 
 Øvrige spørsmål og kommentarer skal rettes til GeoFA, se kontaktinformationer på https://www.geodanmark.dk/home/vejledninger/geofa/
@@ -49,4 +52,4 @@ Ved spørgsmål om de dokumenter som er under udarbejdelse, kontakt venligst Lar
 GeoFA vedligeholder en stor mængde dokumentation herunder vejlendinger mv. i [Confluence](https://confluence.sdfi.dk/display/GS/GeoFA+vejledninger "GeoFA i Confluence").
 
 ---
-Opdateret 6/1 2026 af LLJ, Geopartener
+Opdateret 13/1 2026 af LLJ, Geopartener
