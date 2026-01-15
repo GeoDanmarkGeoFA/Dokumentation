@@ -32,19 +32,19 @@ Herunder er der vist nogle eksempler på fejl som kan opstå når man bruger Geo
 
 ![... i GeoFA](/pics/7_truncate.png "... i GeoFA")
 
-Denne fejl vises hvis den værdi man har indtastet er for lang (for mange tegn) i forhold til det som er tilladt i henhold til specifikationen. Find ud af hvor lang (hvor mange tegn) værdien må være og ret fejlen som beskrevet under [Generel fejlløsning ved indtasting/editering](#Generel-fejlløsning-ved-indtasting/editering).
+Denne fejl vises hvis den værdi man har indtastet er for lang (for mange tegn) i forhold til det som er tilladt i henhold til specifikationen. Find ud af hvor lang (hvor mange tegn) værdien må være og ret fejlen som beskrevet under [Generel fejlløsning ved indtasting/editering](#Generel-fejlløsning-ved-indtastingeditering).
 
 ### Not null violation
 
 ![... i GeoFA](/pics/7_not_null.png "... i GeoFA")
 
-Denne fejl vises når der ikke er indtastet en værdi i et felt hvor dette kræves. Ret fejlen ved at indsætte en lovlig værdi som beskrevet under [Generel fejlløsning ved indtasting/editering](#Generel-fejlløsning-ved-indtasting/editering).
+Denne fejl vises når der ikke er indtastet en værdi i et felt hvor dette kræves. Ret fejlen ved at indsætte en lovlig værdi som beskrevet under [Generel fejlløsning ved indtasting/editering](#Generel-fejlløsning-ved-indtastingeditering).
 
 ### Check violation
 
 ![... i GeoFA](/pics/7_check_constraint.png "... i GeoFA")
 
-Denne fejl vises typisk når en indtastet værdi ikke opfylder et kriterie for den indtastede værdi. Find ud af hvilke værdier som må indtastes i feltet og ret fejlen som beskrevet under [Generel fejlløsning ved indtasting/editering](#Generel-fejlløsning-ved-indtasting/editering).
+Denne fejl vises typisk når en indtastet værdi ikke opfylder et kriterie for den indtastede værdi. Find ud af hvilke værdier som må indtastes i feltet og ret fejlen som beskrevet under [Generel fejlløsning ved indtasting/editering](#Generel-fejlløsning-ved-indtastingeditering).
 
 Typisk kan der gælde regler som:
 
