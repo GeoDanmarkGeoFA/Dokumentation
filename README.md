@@ -22,11 +22,13 @@ Følgende sider er under review:
 
 [5 Billedrelationer](/Billedrelationer.md)
 
+[7 FAQ om fejlmeddelelser](/FAQ_om_fejlmeddelelser.md)
+
 ## Under udarbejdelse
 
 Geopartner er ved at skrive/opdatere følgende vejledninger:
 
-[7 FAQ om fejlmeddelelser](/FAQ_om_fejlmeddelelser.md)
+(p.t. ingen)
 
 ## Aftalt at de skrives af KL
 
