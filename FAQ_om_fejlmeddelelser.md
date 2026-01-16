@@ -2,6 +2,24 @@
 
 Dette dokument indeholder en kort oversigt over ofte forekommende fejl og deres løsning. Fejl omfatter også situationer som ikke er fejl, men det oplevede kan have en karakter der gør at GeoFA kan opføre sig anderledes end forventet. Dokumentet beskriver ikke alle fejltyper.
 
+**Indhold på denne side:**
+
+- [FAQ - særligt om fejlmeddeleleser](#faq---særligt-om-fejlmeddeleleser)
+  - [Fejl der kan ses i GeoFA Webkortet](#fejl-der-kan-ses-i-geofa-webkortet)
+    - [Der vises ingen eller meget få features når et lag tændes](#der-vises-ingen-eller-meget-få-features-når-et-lag-tændes)
+    - [Generel fejlløsning ved indtasting/editering](#generel-fejlløsning-ved-indtastingeditering)
+    - [String data, right truncated](#string-data-right-truncated)
+    - [Not null violation](#not-null-violation)
+    - [Check violation](#check-violation)
+    - [Limit error](#limit-error)
+  - [Fejl der kan ses i GeoFA Editor](#fejl-der-kan-ses-i-geofa-editor)
+    - [Kunne ikke læse temakode](#kunne-ikke-læse-temakode)
+    - [Invalid parameter value: 7 ERROR:  Geometry type (MultiPoint) does not match column type (MultiPolygon)](#invalid-parameter-value-7-error--geometry-type-multipoint-does-not-match-column-type-multipolygon)
+    - [Obligatorisk felt xxx mangler](#obligatorisk-felt-xxx-mangler)
+    - [Foreign key violation](#foreign-key-violation)
+    - [Alle mine nye features ligger dobbelt](#alle-mine-nye-features-ligger-dobbelt)
+    - [Hvornår skal "Slet objekter som ikke er i uploaded data" bruges?](#hvornår-skal-slet-objekter-som-ikke-er-i-uploaded-data-bruges)
+
 Enhver liste og oversigt bliver bedre hvis brugerne bidrager til den. Har du forslag til forbedringer eller tilføjelser er du meget velkommen til at skrive til [GeoFA Supporten](support@geopartner.dk) eller kontakte [GeoFA-forum under KL](https://www.geodanmark.dk/home/vejledninger/geofa/)
 
 ## Fejl der kan ses i GeoFA Webkortet
