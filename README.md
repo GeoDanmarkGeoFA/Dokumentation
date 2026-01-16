@@ -1,6 +1,8 @@
-# Dokumentation
+# Teknisk dokumentation til GeoFA 
 
-Dette er mindre samling af teknsike dokumenter som vedrører GeoFA.
+Dette er mindre samling af tekniske dokumenter som vedrører GeoFA. Vejledningerne supplerer GeoFA specifikationen og uddyber emnerne med flere teknsike detaljer.
+
+## Tilgængelige vejledninger
 
 Der er følgenede sider tilgængelige:
 
@@ -8,50 +10,41 @@ Der er følgenede sider tilgængelige:
 
 [Benyttelse af GeoFAs API](/api.md)
 
-## Under review
+[Brugerstyring - Geofenching](/Brugerstyring_Geofenching.md)
 
-Følgende sider er under review:
+[Brugerstyring - Versionering af data](/Brugerstyring_Versionering_af_data.md)
 
-[1 Brugerstyring - Geofenching](/Brugerstyring_Geofenching.md)
+[Brugerstyring - Offentlighedskode](/Brugerstyring_Offentlighedskode.md)
 
-[2 Brugerstyring - Versionering af data](/Brugerstyring_Versionering_af_data.md)
+[Vejkoder](/Vejkoder.md)
 
-[3 Brugerstyring - Offentlighedskode](/Brugerstyring_Offentlighedskode.md)
+[Billedrelationer](/Billedrelationer.md)
 
-[4 Vejkoder](/Vejkoder.md)
+[FAQ om fejlmeddelelser](/FAQ_om_fejlmeddelelser.md)
 
-[5 Billedrelationer](/Billedrelationer.md)
+## Vejledninger under udarbejdelse/review
 
-[7 FAQ om fejlmeddelelser](/FAQ_om_fejlmeddelelser.md)
+GeoFA er ved at skrive/opdatere følgende vejledninger:
 
-## Under udarbejdelse
+[Dataredundans](/Dataredundans.md)
 
-Geopartner er ved at skrive/opdatere følgende vejledninger:
+## Forslag til forbedringer
 
-(p.t. ingen)
-
-## Aftalt at de skrives af KL
-
-[6 Dataredundans](/Dataredundans.md)
-
----
-Ved spørgsmål om de dokumenter som er under udarbejdelse, kontakt venligst Lars Lindenborg Jensen hos Geopartner Landisspektører A/S på llj@geopartner.dk
-
-Øvrige spørsmål og kommentarer skal rettes til GeoFA, se kontaktinformationer på https://www.geodanmark.dk/home/vejledninger/geofa/
+Alle er velkomne til at bidrage med forslag til forbedringer til vejledningerne. Hvis man har en ide til en ny vejledning hører GeoFA gerne om det. Spørsmål, forslag og kommentarer til vejledningerne skal rettes til GeoFA, se kontaktinformationer på https://www.geodanmark.dk/home/vejledninger/geofa/
 
 # Link til øvrig dokumentation og andet godt
 
-[Webkortet](https://geofa-kort.geodanmark.dk/app/fkg/?config=/api/v2/configuration/fkg/configuration_fkg_udgivet_5f465f5d3181f687353260.json) - Start med at få vist data i GeoFA på et kort.
+[Startsiden](https://www.geodanmark.dk/home/vejledninger/geofa/) for GeoFA er det sted hvor man normalt kan starte hvis man søger information om GeoFA.
+
+[Webkortet](https://geofa-kort.geodanmark.dk/app/fkg/?config=/api/v2/configuration/fkg/configuration_fkg_udgivet_5f465f5d3181f687353260.json) viser data i GeoFA på et kort.
+
+GeoFA vedligeholder en stor mængde dokumentation herunder vejledninger mv. i [Confluence](https://confluence.sdfi.dk/display/GS/GeoFA+vejledninger "GeoFA i Confluence").
 
 [GeoFA-editor](https://geofa.geodanmark.dk/editor/) er det sted hvor man kan hente/uploade filer med geodata og administrere billeder i GeoFA.
 
-[Webkortet](https://geofa-kort-test.geodanmark.dk/app/fkg/?config=/api/v2/configuration/fkg/configuration_fkg_udgivet_5f465f5d3181f687353260.json) - findes også i et TEST-miljø.
+[Webkortet](https://geofa-kort-test.geodanmark.dk/app/fkg/?config=/api/v2/configuration/fkg/configuration_fkg_udgivet_5f465f5d3181f687353260.json) findes også i et TEST-miljø.
 
-[GeoFA-editor](https://geofa-test.geodanmark.dk/editor/) - GeoFA-editor findes også til TEST-miljøet.
-
-[Startsiden](https://www.geodanmark.dk/home/vejledninger/geofa/) for GeoFA er det sted hvor man normalt kan starte hvis man søger information om GeoFA.
-
-GeoFA vedligeholder en stor mængde dokumentation herunder vejlendinger mv. i [Confluence](https://confluence.sdfi.dk/display/GS/GeoFA+vejledninger "GeoFA i Confluence").
+[GeoFA-editor](https://geofa-test.geodanmark.dk/editor/) findes også til TEST-miljøet.
 
 ---
-Opdateret 13/1 2026 af LLJ, Geopartener
+Opdateret 16/1 2026 af LLJ, Geopartener
