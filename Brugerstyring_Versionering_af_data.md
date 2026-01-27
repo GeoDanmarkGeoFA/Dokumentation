@@ -18,7 +18,7 @@ Følgende felter indgår i versionsstyringen af data:
 
 - **systid_til**
 
-  Feltet indeholder det dato/tidspunkt hvor *denne version* af objektet ikke længere er gyldig. Når feltet bliver udfyldt kan de ske forde at objektet enten er opdateret (rettet) eller objektet er slettet. Hvis værdien er NULL, så er obkjektet den seneste (og gyldige) version af objektet.
+  Feltet indeholder det dato/tidspunkt hvor *denne version* af objektet ikke længere er gyldig. Når feltet bliver udfyldt kan de ske forde at objektet enten er opdateret (rettet) eller objektet er slettet. Hvis værdien er NULL, så er objektet den seneste (og gyldige) version af objektet.
 
 - **oprettet**
 
