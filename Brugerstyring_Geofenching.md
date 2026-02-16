@@ -1,4 +1,4 @@
-# Geofenceing
+# Geofencing
 
 GeoFA håndterer bl.a. rettgiheder til at editere data ved hjælp af et givent objekts placering og brugerens rettigheder - kaldet *Geofencing*.
 
