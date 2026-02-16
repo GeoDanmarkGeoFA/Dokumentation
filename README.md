@@ -4,7 +4,7 @@ Dette er mindre samling af tekniske dokumenter som vedrører GeoFA. Vejledninger
 
 ## Tilgængelige vejledninger
 
-Der er følgenede sider tilgængelige:
+Der er følgende sider tilgængelige:
 
 [Indlejring af kort på egen webside](/Indlejring_af_webkort.md)
 
