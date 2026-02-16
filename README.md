@@ -1,6 +1,6 @@
 # Teknisk dokumentation til GeoFA 
 
-Dette er mindre samling af tekniske dokumenter som vedrører GeoFA. Vejledningerne supplerer GeoFA specifikationen og uddyber emnerne med flere teknsike detaljer.
+Dette er mindre samling af tekniske dokumenter som vedrører GeoFA. Vejledningerne supplerer GeoFA specifikationen og uddyber emnerne med flere tekniske detaljer.
 
 ## Tilgængelige vejledninger
 
@@ -10,7 +10,7 @@ Der er følgenede sider tilgængelige:
 
 [Benyttelse af GeoFAs API](/api.md)
 
-[Brugerstyring - Geofenching](/Brugerstyring_Geofenching.md)
+[Brugerstyring - Geofencing](/Brugerstyring_Geofenching.md)
 
 [Brugerstyring - Versionering af data](/Brugerstyring_Versionering_af_data.md)
 
@@ -34,7 +34,7 @@ Alle er velkomne til at bidrage med forslag til forbedringer til vejledningerne.
 
 # Link til øvrig dokumentation og andet godt
 
-[Startsiden](https://www.geodanmark.dk/home/vejledninger/geofa/) for GeoFA er det sted hvor man normalt kan starte hvis man søger information om GeoFA.
+[Startsiden](https://www.geodanmark.dk/home/vejledninger/geofa/) for GeoFA er det sted hvor man normalt kan starte, hvis man søger information om GeoFA.
 
 [Webkortet](https://geofa-kort.geodanmark.dk/app/fkg/?config=/api/v2/configuration/fkg/configuration_fkg_udgivet_5f465f5d3181f687353260.json) viser data i GeoFA på et kort.
 
@@ -47,4 +47,4 @@ GeoFA vedligeholder en stor mængde dokumentation herunder vejledninger mv. i [C
 [GeoFA-editor](https://geofa-test.geodanmark.dk/editor/) findes også til TEST-miljøet.
 
 ---
-Opdateret 16/1 2026 af LLJ, Geopartener
+Opdateret 16/1 2026 af LLJ, Geopartner
