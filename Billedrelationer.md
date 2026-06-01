@@ -10,7 +10,7 @@ Man kan også benytte GeoFAs faciliteter direkte, hvilket beskrives i afsnittene
 
 Gennem GeoFA Editor kan man tilføje billeder til GeoFAs billeddatabase og skabe forbindelsen mellem de enkelte billeder og elementer lagt ind i de tre lag under **Friluftsliv**
 
-En (ældre) video om hvordan man bruger GeoFA Editor til at uploade og tilknyte billeder til faciliteter kan ses her https://vimeo.com/710733192/725175d9f6 
+En (ældre) video om hvordan man bruger GeoFA Editor til at uploade og tilknytte billeder til faciliteter kan ses her https://vimeo.com/710733192/725175d9f6 
 
 ## Teknisk beskrivelse af fotos i GeoFA
 
@@ -20,33 +20,33 @@ Når man kan benytter GeoFA Editoren til først at uploade billeder, får man sk
 
 Når man derefter tilknytter billedet til et element i GeoFA (for eksempel til et shelter) får man skabt en række i tabellen *t_7900_fotoforbindelse* - dette sker ligeledes automatisk.
 
-GeoFA Editoren kan kun bruges til at skabe fotoforbindelse mellem billeder og elementer i de tre lag under **Friluftsliv**. Man kan dog bruge andre metoder til at  tilknytte billeder til et vilkårlig element i et vilkårligt lag i GeoFA.
+GeoFA Editoren kan kun bruges til at skabe fotoforbindelse mellem billeder og elementer i de tre lag under **Friluftsliv**. Man kan dog bruge andre metoder til at tilknytte billeder til et vilkårlig element i et vilkårligt lag i GeoFA.
 
 Selve billedet ligger ikke i GeoFA databasen, men ligger i et eksternt repo/bibliotek. GeoFA danner ved upload af billeder flere udgaver af billederne. Den komplette beskrivelse findes i GeoFA Specifikationen.
 
 ### Tabellen t_7901_foto
 
-Tabelen *t_7901_foto* indeholder information om et billede som er lagt ind i GeoFA's billededatabase. Generelt følger indholdet i tabellen den generelle datastruktur i GeoFA. Følgende felter kan fremhæves:
+Tabelen *t_7901_foto* indeholder information om et billede som er lagt ind i GeoFA's billeddatabase. Generelt følger indholdet i tabellen den generelle datastruktur i GeoFA. Følgende felter kan fremhæves:
 
 - **object_id**
   Denne UUID skal bruges når man uploader billed-filen til systemet og når man skaber forbindelse mellem foto og GeoFA feature.
 
 - **copyright**
 
-  Feltet kan bruges til at angive en særlig information om ophavsret til det pågældende billede. Typisk vil man indsætte fotografens navn. Ved brug af GeoFA Editor udfyles feltet ikke.
+  Feltet kan bruges til at angive en særlig information om ophavsret til det pågældende billede. Typisk vil man indsætte fotografens navn. Ved brug af GeoFA Editor udfyldes feltet ikke.
 
 - **billedtekst**
 
-  Feltet kan bruges til at angive en billedtekst til det pågældende billede. Ved brug af GeoFA Editor udfyles feltet ikke.
+  Feltet kan bruges til at angive en billedtekst til det pågældende billede. Ved brug af GeoFA Editor udfyldes feltet ikke.
 
 - **alt_tekst**
 
   Feltet kan bruges til at angive en alternativ tekst til det pågældende billede. Alt_tekst benyttes typisk til oplæsning af hjemmesider eller andre hjælpefunktioner. Ved brug af GeoFA Editor udfyldes feltet ikke.
 
-Resultatet af en indlæggelse af en billede er en ny række i tabellen t_7901_foto der er identificeret med et *objekt_id* af typen UUID. Denne værdi skal bruges i det videre arbejde for at skabe forbindelse med en eller flere faciliteter registreret i GeoFA.
+Resultatet af en indlæggelse af et billede er en ny række i tabellen t_7901_foto der er identificeret med et *objekt_id* af typen UUID. Denne værdi skal bruges i det videre arbejde for at skabe forbindelse med en eller flere faciliteter registreret i GeoFA.
 
 ### Indlægning af billede
-Ønsker man at indlægge et billede i GeoFA's billededatabse udenom GeoFA Editoren, skal man først oprette en række i tabellen *t_7901_foto*. Det UUID man får retur skal benttes i nedenstående kald.
+Ønsker man at indlægge et billede i GeoFA's billededatabse udenom GeoFA Editoren, skal man først oprette en række i tabellen *t_7901_foto*. Det UUID man får retur skal benyttes i nedenstående kald.
 
 Et billede uploades til billedbiblioteket og navngives med med det returnerede objekt_id (returneret UUID='9d69bbf8-ef8a-11f0-be38-2b4180875278'):
 
@@ -64,7 +64,7 @@ Tabellen *t_7900_fotoforbindelse* indeholder information om, hvilke billeder der
 
 - **foto_objek**
 
-  Angiver hvilket *objekt_id* som billedtilkytningen vedrører. Det angivne objekt_id skal findes i den tabel, som er angivet i feltet *fkg_tema*. Feltet skal udfyldes og bliver automatisk udfyldt, hvis man bruger GeoFA Editoren.
+  Angiver hvilket *objekt_id* som billedtilknytningen vedrører. Det angivne objekt_id skal findes i den tabel, som er angivet i feltet *fkg_tema*. Feltet skal udfyldes og bliver automatisk udfyldt, hvis man bruger GeoFA Editoren.
 
 - **foto_lokat**
 
@@ -109,7 +109,7 @@ Det typiske eksempel der gennemgås her, viser hvilke felter der indeholder bill
 
 ### Attributfelter vedrørende billeder
 
-I GeoFA findes der typisk et eller flere felter man som bruger (dataejer) kan udfylde med et (ekstern for GeoFA) link til et billede, som man bruger selv har hosted et andet sted. GeoFA kontrollerer ikke billedet og ansvaret for billedet påhviler alene den der har lagt billedet op.
+I GeoFA findes der typisk et eller flere felter man som bruger (dataejer) kan udfylde med et (ekstern for GeoFA) link til et billede, som bruger selv har hosted et andet sted. GeoFA kontrollerer ikke billedet og ansvaret for billedet påhviler alene den der har lagt billedet op.
 
 På friluftslagene findes der *foto_link*, *foto_link1*, *foto_link2* og *foto_link3*.
 
