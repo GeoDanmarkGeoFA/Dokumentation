@@ -20,7 +20,7 @@ Når man kan benytter GeoFA Editoren til først at uploade billeder, får man sk
 
 Når man derefter tilknytter billedet til et element i GeoFA (for eksempel til et shelter) får man skabt en række i tabellen *t_7900_fotoforbindelse* - dette sker ligeledes automatisk.
 
-GeoFA Editoren kan kun bruges til at skabe fotoforbindelse mellem billeder og elementer i de tre lag under **Friluftsliv**. Man kan dog bruge andre metoder til at tilknytte billeder til et vilkårlig element i et vilkårligt lag i GeoFA.
+GeoFA Editoren kan kun bruges til at skabe fotoforbindelse mellem billeder og elementer i de tre lag under **Friluftsliv**. Man kan dog bruge andre metoder til at tilknytte billeder til et vilkårligt element i et vilkårligt lag i GeoFA.
 
 Selve billedet ligger ikke i GeoFA databasen, men ligger i et eksternt repo/bibliotek. GeoFA danner ved upload af billeder flere udgaver af billederne. Den komplette beskrivelse findes i GeoFA Specifikationen.
 
