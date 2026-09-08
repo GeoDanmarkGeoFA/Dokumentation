@@ -59,7 +59,7 @@ Under ”Authorization” indsætter du dine egen Access token value efter ”Be
 ![image](https://github.com/user-attachments/assets/e83dd7a2-c25b-412d-8458-22234461790e)
 
  
-For at finde ud af hvad der skal så i din SQL query, så kig nærmere i GeoFA-specifikationen.
+For at finde ud af hvad der skal stå i din SQL query, så kig nærmere i GeoFA-specifikationen.
 
 ## Specifikationen
 I specifikationen kan du finde alle tabeller og kolonner, så du nemt kan komme i gang. Du finder den her:
